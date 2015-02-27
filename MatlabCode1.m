@@ -12,7 +12,7 @@ omega = 2*pi*f;
 angle = (pi*33)/180; 
 T = 1/f;
 
-t = linspace(-10000*T,10000*T,1000);
+t = linspace(-3000*T,3000*T,1000);
 x_t = 3*cos(omega*t+angle);
 f_t = cos(omega*t).*sin(omega*t);
 u_t = heaviside(t);
